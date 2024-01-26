@@ -28,3 +28,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // Inicializa o tema ao carregar a página
     setInitialTheme();
 });
+
