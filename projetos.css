@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@0,6..96;1,6..96&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right, #edc5bd, #daa1a2, #c37e8f, #a75d83, #84407b);
+}
+
+h1 {
+    font-family: 'Bodoni Moda', serif;
+    display: flex;
+    position: relative;
+    padding: 25px;
+}
+
+.vertical {
+    width: 1px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -150px;
+    background-color: black;
+    box-shadow: none;
+    border: none;
+}
+.nav-bar {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -115px;
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+.horizontal-header {
+    display: flex;
+    position: relative;
+    margin-left: 351px;
+    margin-top: 25px;
+    height: 1px;
+    width: 900px;
+    box-shadow: none;
+    border: none;
+    background-color: black;
+}
+
+footer {
+    margin-top: 472px;
+    font-size: 22px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.footer1, .footer2 {
+    height: 1px;
+    width: 300px;
+    box-shadow: none;
+    border: none;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.projeto {
+    display: flex;
+    position: absolute;
+    width: 600px;
+}
+
+.slideShow {
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+p {
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+.dark {
+    color: #cfc4e4; 
+}
+
+.dark a {
+    color: #cfc4e4; 
+}
+
+.dark hr {
+    background-color: #cfc4e4; 
+}
+
+.gradient-toggle-btn {
+    position: fixed;
+    bottom: 470px;
+    right: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
